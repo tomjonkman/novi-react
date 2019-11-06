@@ -1,0 +1,16 @@
+/*
+Let op: CSS classes worden toegepast op het hele document.
+Je wil niet dat de styling voor een specifiek component een ander component per ongeluk beinvloedt.
+Daarom is de naamgeving van CSS classNames erg belangrijk.
+Er zijn methodieken die je kunt gebruiken, zoals BEM.
+Voor meer informatie over de BEM Naming convention, lees hier meer:
+http://getbem.com/introduction/
+*/
+
+.test-class-component--not-filled {
+  background-color: red;
+}
+
+.test-class-component--filled {
+  background-color: green;
+}
